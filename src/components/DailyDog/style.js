@@ -10,6 +10,10 @@ export const Container = styled.div`
     background-color: #B0C7BF;
     background-image: url('./blizzard.png');
     position: relative;
+
+    @media (max-width: 600px) {
+        padding: 20px 0 100px;
+    }
 `;
 
 export const DogContainer = styled.div`
@@ -101,6 +105,11 @@ export const Footer = styled.footer`
     bottom: 0;
     left: 0;
     right: 0;
+
+    @media (max-width: 600px) {
+        background: #fff;
+        padding-top: 20px;
+    }
 
     p {
         display: flex;
