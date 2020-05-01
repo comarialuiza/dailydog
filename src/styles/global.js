@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
-    @import url('https://fonts.googleapis.com/css?family=Dosis|Julius+Sans+One|Merienda&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
 
     * {
         margin: 0;
@@ -10,7 +10,7 @@ export default createGlobalStyle`
     }
 
     body {
-        font-family: 'Merienda', sans-serif;
+        font-family: Dosis, sans-serif;
     }
 
     body, html, #root {
