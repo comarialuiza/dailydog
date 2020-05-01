@@ -1,8 +1,10 @@
 import React from 'react';
 
+import DailyDog from './components/DailyDog';
+
 function App() {
   return (
-    <h1>Daily dog!</h1>
+    <DailyDog />
   );
 }
 
